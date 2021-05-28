@@ -1,0 +1,13 @@
+#s3 {
+	background-image: url(../img/help.svg);
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	padding-bottom: 20vh;
+	line-height: 150%;
+}
+
+#s3 h1 {
+	padding-bottom: 20px;
+}

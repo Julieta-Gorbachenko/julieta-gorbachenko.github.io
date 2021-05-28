@@ -1,0 +1,44 @@
+.all { background-color: #348C93; min-height: 100vh; }
+
+h1 { line-height: 80%;
+	margin: 20% 0%;
+}
+
+#infgr {
+	padding-top: 7%;
+	padding-bottom: 7%; 
+}
+
+#du {
+	padding: 5% ;
+	padding-top: 2%;
+}
+
+@media screen and (max-width: 1024px) {
+	.all .info h1 {
+		font-size: 70px;
+		margin: 20% 0%; 
+	}
+}
+
+@media screen and (max-width: 770px) {
+	.all .info h1 {
+		text-align: center;
+		margin: 12% 0% 9% 13%;
+	}
+
+	.all .info p { padding-bottom: 0%; }
+
+	.all .info { 
+		padding-bottom: 0%;
+		min-width: 85%; 
+	}
+
+	.images #du { max-width: 97%; }
+}
+
+@media screen and (max-width: 450px) {
+	.all .info h1 {
+		margin: 12% 8% 12% 27%;
+		font-size: 50px;
+	}

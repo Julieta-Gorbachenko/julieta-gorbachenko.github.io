@@ -1,0 +1,40 @@
+nav { 
+	position: fixed;
+	right:0;
+	top: 0;
+	height: 100vh;
+	width: 60px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	align-content: center;
+	z-index: 9;
+}
+
+.navigation {}
+.navigation ul {
+	list-style: none;
+	padding-right: 15px;
+}
+.navigation li {
+	position: relative;
+	width: 45px;
+	height: 45px;
+}
+.navigation a {
+	position: absolute;
+	left:50% top:50%;
+	transform: translateX(-50%) translateY(-50%);
+	display: block;
+	background-color: rgba(255,255,255,.6);
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	transition: all .3s ease;	
+}
+
+.navigation a:hover {
+	background-color: rgba(255,255,255,1);
+	width: 16px;
+	height: 16px;
+}

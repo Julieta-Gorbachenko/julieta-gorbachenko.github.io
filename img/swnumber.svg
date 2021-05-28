@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Шар_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 62.14 33.62" style="enable-background:new 0 0 62.14 33.62;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#C0E1D8;}
+	.st1{fill:none;}
+	.st2{fill:#CFE8E2;}
+	.st3{font-family:'UbuntuMono-Bold';}
+	.st4{font-size:11px;}
+</style>
+<g>
+	<g>
+		<g>
+			<path class="st0" d="M0.09,25.04c2.25-0.07,5.18,1.71,5.25,4.08s-2.73,4.43-4.98,4.5c-0.67,0.02,2.42-2,2.34-4.37
+				S-0.58,25.06,0.09,25.04z"/>
+			<ellipse class="st0" cx="11.54" cy="29.32" rx="7.4" ry="3.57"/>
+		</g>
+		<g>
+			<path class="st0" d="M22.15,25.04c2.25-0.07,5.18,1.71,5.25,4.08c0.07,2.37-2.73,4.43-4.98,4.5c-0.67,0.02,2.42-2,2.34-4.37
+				C24.69,26.88,21.49,25.06,22.15,25.04z"/>
+			<ellipse class="st0" cx="33.6" cy="29.32" rx="7.4" ry="3.57"/>
+		</g>
+		<g>
+			<path class="st0" d="M0.09,13.05c2.25-0.07,5.18,1.71,5.25,4.08s-2.73,4.43-4.98,4.5c-0.67,0.02,2.42-2,2.34-4.37
+				S-0.58,13.07,0.09,13.05z"/>
+			<ellipse class="st0" cx="11.54" cy="17.34" rx="7.4" ry="3.57"/>
+		</g>
+		<g>
+			<path class="st0" d="M22.15,13.05c2.25-0.07,5.18,1.71,5.25,4.08c0.07,2.37-2.73,4.43-4.98,4.5c-0.67,0.02,2.42-2,2.34-4.37
+				C24.69,14.89,21.49,13.07,22.15,13.05z"/>
+			<ellipse class="st0" cx="33.6" cy="17.34" rx="7.4" ry="3.57"/>
+		</g>
+		<g>
+			<path class="st0" d="M43.29,25.04c2.25-0.07,5.18,1.71,5.25,4.08c0.07,2.37-2.73,4.43-4.98,4.5c-0.67,0.02,2.42-2,2.34-4.37
+				S42.63,25.06,43.29,25.04z"/>
+			<ellipse class="st0" cx="54.74" cy="29.32" rx="7.4" ry="3.57"/>
+		</g>
+		<g>
+			<path class="st0" d="M43.29,13.05c2.25-0.07,5.18,1.71,5.25,4.08c0.07,2.37-2.73,4.43-4.98,4.5c-0.67,0.02,2.42-2,2.34-4.37
+				S42.63,13.07,43.29,13.05z"/>
+			<ellipse class="st0" cx="54.74" cy="17.34" rx="7.4" ry="3.57"/>
+		</g>
+	</g>
+	<rect x="8.32" y="1.68" class="st1" width="44.87" height="14.2"/>
+	<text transform="matrix(1 0 0 1 8.3215 9.3116)" class="st2 st3 st4">300-500</text>
+</g>
+</svg>

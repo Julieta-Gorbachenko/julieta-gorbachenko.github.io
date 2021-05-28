@@ -1,0 +1,47 @@
+.inf {
+	background-image: url("../img/entry.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#s1, #s3 {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	padding-bottom: 10vh;
+	line-height: 150%;
+}
+
+.text {
+	color: #fff;
+	font-size: 1.5rem;
+	width: 100%;
+	max-width: 600px;
+}
+
+h1 {
+	margin: 5%;
+	line-height: 110%;
+}
+
+#s3 p {
+	margin: 7%;
+}
+
+@media screen and (max-width: 600px){
+	.inf .text p {
+		font-size: 1.2rem;
+		max-width: 300px;
+	}
+
+	#s3 .text h1 {
+		margin: 2%;
+		font-size: 1.9rem;
+	}
+}

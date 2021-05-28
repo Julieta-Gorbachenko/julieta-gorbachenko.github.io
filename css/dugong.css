@@ -1,0 +1,155 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html, body {
+	font-size: 16px;
+	font-family: 'Ubuntu Mono', sans-serif;
+}
+
+.all {
+	background-color: #64B7B1;
+	min-height: 100vh;
+	display: flex;
+}
+
+.images {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.info {
+	width: 50%;
+	color: #fff;
+	font-size: 1.5rem;
+	max-width: 37%;
+	align-self: flex-start;
+	padding-left: 5%;
+	/*padding-bottom: 10%;*/
+	line-height: 130%;
+}
+
+h1 {
+	margin: 25% 0%;
+	/*margin-top: 20%;
+	margin-bottom: 20%;*/  
+	font-size: 90px;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+#du {
+	padding: 5% ;
+	padding-top: 16%;
+	/*padding-bottom: 5%;*/
+}
+
+#infgr {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-end;
+	padding: 10% 5%;
+	/*padding-bottom: 20%;*/ 
+
+}
+
+#infgr img {
+	max-width: 170px;
+	max-height: 120px;
+}
+
+.btn {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+}
+
+.btn img {
+    display: block;
+    width: 45%;
+    transform: rotate(90deg);
+}
+
+@media screen and (max-width: 1024px) {
+	.info h1 {
+		margin: 40% 20% 25% 0%;
+		font-size: 70px;
+	}
+
+	.info p {
+		font-size: 1.4rem;
+		line-height: 140%;
+		width: 120%;
+	}
+
+	.images #infgr img {
+		max-width: 150px;
+		max-height: 80px;
+	}
+}
+
+@media screen and (max-width: 770px) {
+	.all {
+		flex-direction: column;
+	}
+
+	.all .info {
+		order: -1;
+		width: 100%;
+		min-width: 80%;
+	}
+
+	.all .images {
+		width: 100%;
+	}
+
+	.all .info h1 {
+		margin: 12% 40%;
+		font-size: 70px;
+		text-align: center;
+	}
+
+	.all .info p {
+		padding-bottom: 0%;
+		max-width: 105%;
+		padding-left: 15%
+	}
+
+	.images #du {
+		padding-top: 7%;
+		max-width: 90%;
+	}
+
+	.images #infgr {
+		padding: 0% 5%;
+	}
+
+	.images #infgr img {
+		max-width: 170px;
+		max-height: 100px;
+		margin-bottom: 7%;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.all .info h1 {
+		margin: 12% 5% 12% 27%;
+		font-size: 50px;
+	}
+
+	.all .info p {
+		max-width: 117%;
+		padding-left: 13%;
+		line-height: 120%; 
+	}
+
+	.images #infgr img {
+		max-width: 110px;
+		max-height: 80px;
+		margin-bottom: 7%;
+	}	
+}

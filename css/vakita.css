@@ -1,0 +1,17 @@
+.all {
+	background-color: #186578;
+}
+
+#du {
+	padding: 10% ;
+	padding-top: 5%;
+	padding-bottom: 0%;
+}
+
+@media screen and (max-width: 770px) {
+	.images #du img {
+		max-width: 95%;
+		padding-bottom: 5%;
+		padding-left: 15%
+	}	
+}
